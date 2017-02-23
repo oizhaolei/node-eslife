@@ -1,0 +1,32 @@
+{
+  "name": "node-eslife",
+  "version": "0.1.0",
+  "homepage": "https://github.com/oizhaolei/node-eslife#readme",
+  "author": {
+    "name": "oizhaolei",
+    "email": "oizhaolei@gmail.com",
+    "url": "oizhaolei.github.io"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [],
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oizhaolei/node-eslife.git"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "curlrequest": "*",
+    "lodash": "*",
+    "md5": "*",
+    "moment": "*"
+  }
+}
