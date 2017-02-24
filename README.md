@@ -1,9 +1,7 @@
-# node-eslife [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-
 
 e栈开放平台API
 
-e栈开放平台API是基于文档([e栈开放平台API说明](http://opendoc.eslife.cn/api.html) 的Node.js实现。
+e栈开放平台API的Node.js实现。
 
 ## Install
 
