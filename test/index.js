@@ -30,7 +30,7 @@ describe('module', function () {
   });
 
   it('Boxtypelist', function (done) {
-    eslife.boxtypelist('101121A051', 0).then(function (data) {
+    eslife.boxtypelist('518131B048', 0).then(function (data) {
       data = JSON.parse(data);
       assert(data.code, 0);
       console.log(data.data);
@@ -49,7 +49,7 @@ describe('module', function () {
     const opUser = 'zhaolei';
     const callbackUrl = 'http://wx.hearn1.com/eslife/noti';
 
-    eslife.applyrent('201199A066', 10, bizOrderId, 'medium', opMobile, opUser, overdueTime, callbackUrl).then(function(data) {
+    eslife.applyrent('518131B048', 10, bizOrderId, 'medium', opMobile, opUser, overdueTime, callbackUrl).then(function(data) {
       data = JSON.parse(data);
       console.log('data.data', data.data);
       assert(data.code, '0');
@@ -72,19 +72,19 @@ describe('module', function () {
     });
   });
 
-  it('applyrecover', function (done) {
+  // it('applyrecover', function (done) {
 
-    const borderId = 'B1017022818448278845107591';
+  //   const borderId = 'B1017022818448278845107591';
 
-    const opMobile = '18624357886';
-    const opUser = 'zhaolei';
+  //   const opMobile = '18624357886';
+  //   const opUser = 'zhaolei';
 
-    eslife.applyrecover(borderId, opMobile, opUser, opMobile, opUser).then(function (data) {
-      data = JSON.parse(data);
-      assert(data.code, 0);
-      console.log(data.data);
+  //   eslife.applyrecover(borderId, opMobile, opUser, opMobile, opUser).then(function (data) {
+  //     data = JSON.parse(data);
+  //     assert(data.code, 0);
+  //     console.log(data.data);
 
-      done();
-    });
-  });
+  //     done();
+  //   });
+  // });
 });
