@@ -12,8 +12,7 @@
   ],
   "main": "lib/index.js",
   "keywords": [],
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oizhaolei/node-eslife.git"
