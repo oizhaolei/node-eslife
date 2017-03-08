@@ -38,15 +38,15 @@ describe('module', function () {
     console.log('data.data', data.data);
     assert(data.code, '0');
 
-    // const borderId = data.data.borderId;
-    // data = await eslife.applyquery(borderId);
-    // console.log('data.data', data.data);
-    // assert(data.code, '0');
+    const borderId = data.data.borderId;
+    data = await eslife.applyquery(borderId);
+    console.log('data.data', data.data);
+    assert(data.code, '0');
 
-    // const actionType = 3;
-    // data = await eslife.applycancel(borderId, bizId, actionType, opMobile, opUser);
-    // console.log('data.data', data.data);
-    // console.log(data.data);
+    const actionType = 3;
+    data = await eslife.applycancel(borderId, bizId, actionType, opMobile, opUser);
+    console.log('data.data', data.data);
+    console.log(data.data);
   });
 
   // it('applyrecover', async function () {
